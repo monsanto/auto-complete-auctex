@@ -233,7 +233,7 @@
 			ac-source-auctex-bibs)
                       ac-sources)))
 
-(add-to-list ac-modes 'latex-mode)
+(add-to-list 'ac-modes 'latex-mode)
 (add-hook 'LaTeX-mode-hook 'ac-auctex-setup)
 
 (provide 'auto-complete-auctex)
